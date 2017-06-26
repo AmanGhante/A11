@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/ganesh"
+            android:icon="@drawable/ic_action_name"
+            android:title="Ganesh" />
+        <item
+            android:id="@+id/devi"
+            android:icon="@drawable/ic_action_name"
+            android:title="Devi" />-->
+        <item
+            android:id="@+id/aarti"
+            android:icon="@drawable/ic_action_name"
+            android:title="Aartiya" />
+        <item
+            android:id="@+id/mantra"
+            android:icon="@drawable/ic_action_name"
+            android:title="Mantras" />
+        <item
+            android:id="@+id/chalisa"
+            android:icon="@drawable/ic_action_name"
+            android:title="Chalisa" />
+        <item
+            android:id="@+id/a"
+            android:title="" />
+        <item
+            android:id="@+id/b"
+            android:title="" />
+       <!-- <item
+            android:id="@+id/others"
+            android:icon="@drawable/shape"
+            android:title="Others Aarti"/>-->
+    </group>
+
+    <item android:title="Communicate">
+       <menu>
+           <!--   <item
+                 android:id="@+id/nav_share"
+                 android:icon="@drawable/ic_menu_share"
+                 android:title="Share" />-->
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
